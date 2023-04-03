@@ -1,0 +1,49 @@
+Error measures(Using log loss):
+
+    1. Logistic Regression:
+        Scores:              [0.88893745 0.92365949 0.91927712 0.85580042 0.88810607]
+        Mean:                0.8951561110689742
+        Standard Deviation:  0.024623202612931924
+        Log Loss:            6.694377415099995
+
+    2. Decision Tree Classifier:
+        Scores:              [0.86904819 0.86904819 0.90382598 0.87613106 0.88014083]
+        Mean:                0.8796388511053281
+        Standard Deviation:  0.01282106233871668
+        Log Loss:            0.4850974201460223
+
+    3. Random Forest Classifier:
+        Scores:              [0.89676965 0.89676965 0.93447281 0.88014083 0.89992175]
+        Mean:                0.9016149388393178
+        Standard Deviation:  0.017835905212320147
+        Log Loss:            0.48509966620621947
+
+    4. Support Vector Machine:
+        Scores:              [0.81934649 0.80209516 0.85990501 0.81793281 0.85580042]
+        Mean:                0.8310159782339321
+        Standard Deviation:  0.022771054904659797
+        Log Loss:            10.381080523610484
+
+    5. KNearestNeighbors:
+        Scores:              [0.87705802 0.79772404 0.83497491 0.85167606 0.87210285]
+        Mean:                0.8467071747928951
+        Standard Deviation:  0.028732552670687053
+        Log Loss:            6.403314695498006
+
+    6. Naive Bayes Classifier:
+        Scores:              [0.84456303 0.82360286 0.87210285 0.85167606 0.87613106]
+        Mean:                0.8536151731233763
+        Standard Deviation:  0.019158285083459525
+        Log Loss:            9.16832798900464
+
+    7. Stochastic Gradient Descent Classifier:
+        Scores:              [0.78446454 0.80209516 0.80052799 0.80927719 0.90382598]
+        Mean:                0.8200381743655552
+        Standard Deviation:  0.042671484612851016
+        Log Loss:            8.537830042064112
+
+======================================================================================================
+
+Accuracy Measures on Best Performing Models:
+    Random Forest Classifier - 0.8715083798882681
+    Decision Tree Classifier - 0.8379888268156425
